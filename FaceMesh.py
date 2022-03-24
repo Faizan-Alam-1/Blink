@@ -116,10 +116,6 @@ while True:
 
       
                                                                                                         
-        
-      
-
-      
 
     
     cTime = time.time()
