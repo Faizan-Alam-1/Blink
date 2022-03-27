@@ -181,7 +181,7 @@ def pixelCounter(first_piece, second_piece, third_piece):
         pos_eye = 'LEFT'
         color = [utils.GRAY, utils.YELLOW]
         pyautogui.press('tab')
-        time.sleep(1.2)
+        time.sleep(1.5)
     else:
         pos_eye="Closed"
         color = [utils.GRAY, utils.YELLOW]
@@ -207,7 +207,7 @@ with map_face_mesh.FaceMesh(min_detection_confidence =0.5, min_tracking_confiden
             ratio = blinkRatio(frame, mesh_coords, RIGHT_EYE, LEFT_EYE)
             # cv.putText(frame, f'ratio {ratio}', (100, 100), FONTS, 1.0, utils.GREEN, 2)
             # utils.colorBackgroundText(frame,  f'Ratio : {round(ratio,2)}', FONTS, 0.7, (30,100),2, utils.PINK, utils.YELLOW)
-            if ratio > 4 :
+            if ratio > 4.5 :
                 pyautogui.press('enter') 
                 
             
