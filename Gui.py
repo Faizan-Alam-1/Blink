@@ -5,9 +5,9 @@ import time
 import pyautogui 
 import pyttsx3  
 import speak
-#import call
+import call_config
 import joke
-#import sms
+import sms_config
 import firebase
 
 
@@ -126,7 +126,7 @@ def Send(event) :
     Default_Label.image = img_send
     send_label()
     speak.speak("Send SMS")
-    sms.sms("Please Come, Help me")
+    sms_config.sms("Please Come, Help me")
    
     
 def Happy(event) :
@@ -159,7 +159,7 @@ def Doctor(event) :
     Default_Label.image = img_Doctor
     doctor_label()
     speak.speak("Call Doctor")
-    call.call()
+    call_config.call()
 
 
 def Light_On(event) :
