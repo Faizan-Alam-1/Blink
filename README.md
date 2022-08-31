@@ -13,8 +13,6 @@ I  builded a software which a patient can control by just voluntarily blinking t
 ## Project
 Project demo click [here](https://www.youtube.com/watch?v=txNl89BhUXM)
 
-## PPT of this project  
-click to View [here](https://drive.google.com/drive/folders/1NFczFAM1JpHr2mX-YjgSBVUJXqxrN3Ga?usp=sharing)
 
 # Software
 ![Software](https://user-images.githubusercontent.com/51821426/160294857-a7392ca0-69bd-4667-b120-ae99c603396e.jpg)
