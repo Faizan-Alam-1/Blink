@@ -1,9 +1,7 @@
 
 # Eye Blink 
 
-According to the study, there are nearly 1 in 50 people
-living with paralysis – approximately 5.4 million people cross the U.S
-And 21 million people are suffering with this problem in India.
+21 million people are suffering with this problem in India.
 Paralyzed patients with no body movement(Except eyes).These people
 are dependent on others to do basic tasks like express their feelings ,
 switch on/off light.
